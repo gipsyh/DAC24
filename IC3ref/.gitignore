@@ -1,0 +1,6 @@
+IC3
+IC3.o
+main.o
+Model.o
+aiger.o
+build/
