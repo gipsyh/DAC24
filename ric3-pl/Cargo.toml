@@ -1,0 +1,19 @@
+[package]
+name = "ic3"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aig = { path = "../libs/aig-rs" }
+minisat = { path = "../libs/minisat-rs" }
+logic-form = { path = "../libs/logic-form" }
+clap = { version = "4.3.0" , features = ["derive"] }
+rand = "0.8.5"
+serde_json = "1.0.107"
+serde = { version = "1.0.189", features = ["derive"] }
+ctrlc = { version = "3.4.1", features = ["termination"] }
+
+[profile.release]
+debug = true

@@ -1,0 +1,11 @@
+[package]
+name = "gipsyh-aiger"
+version = "0.4.0"
+description = "AIGER (And-Inverter graph) file format parser"
+keywords = ["aiger", "aig"]
+categories = ["parser-implementations"]
+license = "MIT"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
