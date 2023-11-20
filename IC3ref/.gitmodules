@@ -1,0 +1,6 @@
+[submodule "aiger"]
+	path = aiger
+	url = https://github.com/arminbiere/aiger.git
+[submodule "minisat"]
+	path = minisat
+	url = git@github.com:gipsyh/minisat.git
